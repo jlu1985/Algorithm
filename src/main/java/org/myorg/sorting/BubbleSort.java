@@ -1,7 +1,5 @@
 package org.myorg.sorting;
 
-import javax.swing.text.html.StyleSheet.ListPainter;
-
 /**
  * 
  * <p>
@@ -17,9 +15,9 @@ import javax.swing.text.html.StyleSheet.ListPainter;
  * </p>
  * <p>
  * <b>Performance</b>: Bubble sort has worst-case and average complexity both
- * О(n<sup>2</sup>), where n is the number of items being sorted. There exist
+ * O(n<sup>2</sup>), where n is the number of items being sorted. There exist
  * many sorting algorithms with substantially better worst-case or average
- * complexity of O(n log n). Even other О(n<sup>2</sup>) sorting algorithms,
+ * complexity of O(n log n). Even other O(n<sup>2</sup>) sorting algorithms,
  * such as insertion sort, tend to have better performance than bubble sort.
  * Therefore, bubble sort is not a practical sorting algorithm when n is large.
  * </p>
