@@ -28,22 +28,22 @@ package org.myorg.sorting;
  * 
  */
 public class BubbleSort {
-	public void sort(int[] list) {
-		boolean swapped;
-		do {
-			swapped = false;
-			for (int i = 1; i < list.length; i++) {
-				if (list[i - 1] > list[i]) {
-					swap(list, i - 1, i);
-					swapped = true;
-				}
-			}
-		} while (swapped);
-	}
+    public void sort(int[] list) {
+        boolean swapped;
+        do {
+            swapped = false;
+            for (int i = 1; i < list.length; i++) {
+                if (list[i - 1] > list[i]) {
+                    swap(list, i - 1, i);
+                    swapped = true;
+                }
+            }
+        } while (swapped);
+    }
 
-	private void swap(int[] list, int leftIndex, int rightIndex) {
-		int tempValue = list[leftIndex];
-		list[leftIndex] = list[rightIndex];
-		list[rightIndex] = tempValue;
-	}
+    private void swap(int[] list, int leftIndex, int rightIndex) {
+        int tempValue = list[leftIndex];
+        list[leftIndex] = list[rightIndex];
+        list[rightIndex] = tempValue;
+    }
 }
